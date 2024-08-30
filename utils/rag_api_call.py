@@ -4,8 +4,8 @@ from openai import AsyncAzureOpenAI
 
 
 def _initialize_client(model):
-    KEY = "f12a097f613c42308843a87a4bb23f5c"
-    ENDPOINT = "https://lucasaiswedenservices.openai.azure.com/"
+    KEY = "cce137e4f9ab4e9aabf97ff068e58129"
+    ENDPOINT = "https://adrienprop.openai.azure.com/"
     DEPLOYMENT = model
     
     base_url = f"{ENDPOINT}/openai/deployments/{DEPLOYMENT}"
